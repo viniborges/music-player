@@ -1,0 +1,28 @@
+:root {
+    --gray-100: #E1E1E6;
+    --gray-200: #C4C4CC;
+    --gray-300: #D9D9D9;
+    --gray-500: #7D788A;
+    --gray-900: #5E586F;
+
+    --purple-700: #2A2141;
+    --purple-900: #0F0D13;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
+    color: var(--gray-100);
+    background-color: var(--purple-900);
+
+    -webkit-font-smoothing: antialiased;
+}

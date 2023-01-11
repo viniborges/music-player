@@ -1,0 +1,15 @@
+.musicControls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.musicControls>button {
+    background: transparent;
+    color: var(--gray-100);
+    cursor: pointer;
+}
+
+.musicControls>button:hover {
+    opacity: 0.75;
+}
